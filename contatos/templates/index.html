@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos</title>
+
+    <link rel="stylesheet" href="{% static '/styles/style.css' %}">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo"><img src="{% static '/images/contatos.png' %}" alt=""> </h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="nav-links">Home</a></li>
+                <li><a href="products.html" class="nav-links">Produtos</a></li>
+                <li><a href="contact.html" class="nav-links">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-contact">
+        <form class="form-contact">
+            <label class="entry-label" for="name">Nome Completo</label>
+            <input class="entry" type="text" name="" id="name" required>
+
+            <label class="entry-label" for="email">Email</label>
+            <input class="entry" type="email" name="" id="email" required>
+
+            <label class="entry-label" for="phone">Número para contato</label>
+            <input class="entry" type="tel" name="" id="phone" required>
+
+
+
+            </div>
+    
+
+            <input class="entry" type="submit" value="Enviar formulário">
+        </form>
+    </main>
+    <footer class="footer">
+  
+       
+    </footer>
+</body>
+
+</html>
